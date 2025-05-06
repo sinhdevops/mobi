@@ -24,6 +24,9 @@ const SEO = {
           "lắp mạng Đà Nẵng, wifi giá rẻ, wifi MobiFone, mạng mobi, lắp mạng mobi Đà Nẵng",
       },
     ],
+    other: {
+        "google-site-verification": "kCHkvcBh-VZO7LczvWFIXLEQ6zAmbACPLnteoTlz6R4", 
+      },
   };
   
   export default SEO;
