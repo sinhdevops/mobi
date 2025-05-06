@@ -81,7 +81,7 @@ function Services() {
             },
           ].map((pkg, index) => {
             const bonus = pkg.months === 6 ? 2 : 4;
-            const total = pkg.months + bonus + 3;
+            const total = pkg.months + bonus;
             return (
               <div
                 key={index}
@@ -93,9 +93,7 @@ function Services() {
                   {pkg.price}
                 </div>
                 <div className="text-center">{pkg.devices}</div>
-                <div className="text-green-700 font-medium">{`Tặng ${
-                  bonus + 3
-                } tháng (Tổng ${total})`}</div>
+                <div className="text-green-700 font-medium">{`Tặng ${bonus} tháng (Tổng ${total})`}</div>
               </div>
             );
           })}
@@ -103,9 +101,12 @@ function Services() {
 
         {/* Box Ưu Đãi */}
         <div className="mt-12 bg-gradient-to-r from-yellow-400 to-yellow-200 p-8 rounded-xl shadow-xl text-center max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
+          <h3 className="text-2xl font-bold text-gray-900 mb-2">
             🎁 ƯU ĐÃI ĐẶC BIỆT CHỈ CÓ TẠI ĐÂY!
           </h3>
+          <p className="mb-3 text-2xl font-bold text-green-800">
+            🎉 LẮP ĐẶT HOÀN TOÀN <span className="underline">MIỄN PHÍ!</span>
+          </p>
           <p className="text-lg text-gray-800 leading-relaxed">
             🔥 Đăng ký <strong>6 tháng</strong> – Tặng ngay{" "}
             <strong>2 tháng</strong>
@@ -115,7 +116,7 @@ function Services() {
             <br />
             🌀 Đặc biệt: Nếu bạn{" "}
             <strong>chuyển từ Viettel, FPT hoặc VNPT</strong>, tặng thêm{" "}
-            <strong>3 tháng</strong> miễn phí!
+            <strong>3 tháng</strong> miễn phí! 💡{" "}
           </p>
           <p className="mt-4 text-blue-900 font-bold text-xl">
             👉 Lên đến <span className="underline">19 tháng sử dụng</span> với
