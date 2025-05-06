@@ -6,8 +6,10 @@ const SEO = {
     openGraph: {
       type: "website",
       locale: "vi_VN",
+      title: "Lắp Mạng Mobi Đà Nẵng - Giá Rẻ, Miễn Phí Lắp Đặt",
       url: "https://https://www.lapmangmobi.store/",
       site_name: "Lắp Mạng Mobi Đà Nẵng",
+      description: "Tốc độ cao, hỗ trợ 24/7, giá chỉ từ 150K/tháng.",
       images: [
         {
           url: "https://https://www.lapmangmobi.store/logo.png",
@@ -17,6 +19,9 @@ const SEO = {
         },
       ],
     },
+    keywords: [ "lắp mạng Đà Nẵng, wifi giá rẻ, wifi MobiFone, mạng mobi, lắp mạng mobi Đà Nẵng"],
+    robots: "index, follow",
+    metadataBase: new URL("https://www.lapmangmobi.store"),
     additionalMetaTags: [
       {
         name: "keywords",
