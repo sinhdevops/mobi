@@ -23,11 +23,11 @@ const App = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-center mb-8">
             Lắp Mạng MobiFone Đà Nẵng Giá Rẻ – Tốc độ cao – Hỗ trợ tận nơi
           </h1>
-          <p className="text-lg text-center mt-4 max-w-2xl text-white">
+          {/* <p className="text-lg text-center mt-4 max-w-2xl text-white">
             Dịch vụ lắp đặt mạng Mobi tại Đà Nẵng với nhiều gói cước linh hoạt –
             miễn phí lắp đặt, tặng đến 7 tháng sử dụng cho khách đăng ký online
             hoặc chuyển từ nhà mạng khác (FPT, Viettel, VNPT).
-          </p>
+          </p> */}
         </div>
       </div>
 

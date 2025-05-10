@@ -114,13 +114,6 @@ function Services() {
             🔥 Đăng ký <strong>12 tháng</strong> – Tặng ngay{" "}
             <strong>4 tháng</strong>
             <br />
-            🌀 Đặc biệt: Nếu bạn{" "}
-            <strong>chuyển từ Viettel, FPT hoặc VNPT</strong>, tặng thêm{" "}
-            <strong>3 tháng</strong> miễn phí! 💡{" "}
-          </p>
-          <p className="mt-4 text-blue-900 font-bold text-xl">
-            👉 Lên đến <span className="underline">19 tháng sử dụng</span> với
-            chi phí chỉ cho 12 tháng!
           </p>
         </div>
       </div>

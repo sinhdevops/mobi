@@ -17,10 +17,18 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Theo Dõi</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a
+                href="https://www.facebook.com/profile.php?id=61576088849937&locale=vi_VN"
+                className="text-gray-400 hover:text-white"
+                target="_blank"
+              >
                 Facebook
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a
+                href="https://zalo.me/0325610016"
+                target="_blank"
+                className="text-gray-400 hover:text-white"
+              >
                 Zalo
               </a>
             </div>
