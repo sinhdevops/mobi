@@ -1,6 +1,6 @@
 // src/next-seo.config.ts
 const SEO = {
-    title: "Lắp Mạng Mobi Đà Nẵng - Giá Rẻ, Nhanh, Uy Tín",
+    title: "Lắp đặt miễn phí tặng modem WIFI, tặng 2 - 4 tháng cước",
     description:
       "Dịch vụ lắp đặt mạng wifi MobiFone tại Đà Nẵng, tốc độ cao, giá siêu rẻ. Miễn phí modem, hỗ trợ kỹ thuật 24/7.",
     openGraph: {
