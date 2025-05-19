@@ -6,7 +6,7 @@ const SEO = {
     openGraph: {
       type: "website",
       locale: "vi_VN",
-      title: "Lắp Mạng Mobi Đà Nẵng - Giá Rẻ, Miễn Phí Lắp Đặt",
+      title: "Lắp đặt miễn phí tặng modem WIFI, tặng 2 - 4 tháng cước",
       url: "https://https://www.lapmangmobi.store/",
       site_name: "Lắp Mạng Mobi Đà Nẵng",
       description: "Tốc độ cao, hỗ trợ 24/7, giá chỉ từ 150K/tháng.",
