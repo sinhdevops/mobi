@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import MainLayout from "@/components/layouts/main-layout";
 import SEO from "../../next-seo.config";
-import Head from "next/head";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,22 +26,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi">
-      <Head>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17095039066"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-17095039066');
-            `,
-          }}
-        />
-      </Head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-17095039066"
+        strategy="afterInteractive"
+      />
+
+      {/* Inline script config gtag */}
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-17095039066');
+    `}
+      </Script>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

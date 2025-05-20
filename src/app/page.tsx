@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <div className="relative h-screen bg-gradient-to-r from-[#51baf4] to-blue-400">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1528127269322-539801943592"
             alt="Vietnam countryside"
             className="w-full h-full object-cover opacity-20"

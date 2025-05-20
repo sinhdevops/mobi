@@ -38,8 +38,6 @@ function Services() {
               devices: "1 IP DNAT",
             },
           ].map((pkg, index) => {
-            const bonus = pkg.months === 6 ? 2 : 4;
-            const total = pkg.months + bonus;
             return (
               <div
                 key={index}
