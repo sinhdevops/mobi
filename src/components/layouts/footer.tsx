@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Liên Hệ</h3>
-            <p className="text-gray-400">Hotline: 0325610016</p>
+            <p className="text-gray-400">Hotline: 0325610016 / 0702252678</p>
             <p className="text-gray-400">Email: lesinh3005@gmail.com</p>
           </div>
           <div>

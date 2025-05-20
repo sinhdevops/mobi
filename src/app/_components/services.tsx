@@ -8,75 +8,33 @@ function Services() {
 
         {/* Bảng Gộp 1 Cột */}
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto">
-          <div className="bg-[#1976D2] text-white p-4 grid grid-cols-5 font-semibold text-sm md:text-base">
+          <div className="bg-[#1976D2] text-white p-4 grid grid-cols-4 font-semibold text-sm md:text-base">
             <div>Gói Cước</div>
             <div>Tốc Độ</div>
             <div className="text-center">Giá</div>
             <div className="text-center">Thiết Bị</div>
-            <div>Khuyến Mãi</div>
+            {/* <div>Khuyến Mãi</div> */}
           </div>
           {[
             {
               name: "6WiFi 1",
               months: 6,
               speed: "300 Mbps",
-              price: "900.000đ",
+              price: "150.000đ", // 900.000 / 6
               devices: "1 IP DNAT",
             },
             {
               name: "6WiFi 2",
               months: 6,
               speed: "400 Mbps",
-              price: "1.080.000đ",
+              price: "180.000đ", // 1.080.000 / 6
               devices: "1 IP DNAT",
             },
             {
               name: "6WiFi 3",
               months: 6,
               speed: "500 Mbps",
-              price: "1.260.000đ",
-              devices: "1 IP DNAT",
-            },
-            {
-              name: "12WiFi 1",
-              months: 12,
-              speed: "300 Mbps",
-              price: "1.800.000đ",
-              devices: "1 IP DNAT",
-            },
-            {
-              name: "12WiFi 2",
-              months: 12,
-              speed: "400 Mbps",
-              price: "2.160.000đ",
-              devices: "1 IP DNAT",
-            },
-            {
-              name: "12WiFi 3",
-              months: 12,
-              speed: "500 Mbps",
-              price: "2.520.000đ",
-              devices: "1 IP DNAT",
-            },
-            {
-              name: "WiFi MESH 1",
-              months: 12,
-              speed: "300 Mbps",
-              price: "2.900.000đ",
-              devices: "1 IP DNAT",
-            },
-            {
-              name: "WiFi MESH 2",
-              months: 12,
-              speed: "400 Mbps",
-              price: "3.200.000đ",
-              devices: "1 IP DNAT",
-            },
-            {
-              name: "WiFi MESH 3",
-              months: 12,
-              speed: "500 Mbps",
-              price: "3.800.000đ",
+              price: "210.000đ", // 1.260.000 / 6
               devices: "1 IP DNAT",
             },
           ].map((pkg, index) => {
@@ -85,15 +43,15 @@ function Services() {
             return (
               <div
                 key={index}
-                className="grid grid-cols-5 p-4 border-b last:border-b-0 hover:bg-yellow-50 transition-all duration-300 text-sm md:text-base bg-yellow-50/50"
+                className="grid grid-cols-4 p-4 border-b last:border-b-0 hover:bg-yellow-50 transition-all duration-300 text-sm md:text-base bg-yellow-50/50"
               >
                 <div className="font-bold text-gray-800">{`${pkg.months} tháng - ${pkg.name}`}</div>
                 <div>{pkg.speed}</div>
                 <div className="text-red-500 font-bold text-center">
-                  {pkg.price}
+                  {pkg.price}/ tháng
                 </div>
                 <div className="text-center">{pkg.devices}</div>
-                <div className="text-green-700 font-medium">{`Tặng ${bonus} tháng (Tổng ${total})`}</div>
+                {/* <div className="text-green-700 font-medium">{`Tặng ${bonus} tháng (Tổng ${total})`}</div> */}
               </div>
             );
           })}

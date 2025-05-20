@@ -32,8 +32,8 @@ const App = () => {
       </div>
 
       <Benefits />
-      <WhyChooseUs />
       <Services />
+      <WhyChooseUs />
     </div>
   );
 };
