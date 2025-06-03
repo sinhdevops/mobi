@@ -27,18 +27,18 @@ export default function RootLayout({
   return (
     <html lang="vi">
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-17117241945"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-17147101010"
         strategy="afterInteractive"
       />
 
       {/* Inline script config gtag */}
       <Script id="gtag-init" strategy="afterInteractive">
         {`
-     window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-17117241945');
+  gtag('config', 'AW-17147101010');
     `}
       </Script>
       <body
