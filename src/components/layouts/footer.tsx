@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Liên Hệ</h3>
-            <p className="text-gray-400">Hotline: 0325610016 / 0702252678</p>
+            <p className="text-gray-400">Hotline: 0763686330 / 0702252678</p>
             <p className="text-gray-400">Email: lesinh3005@gmail.com</p>
           </div>
           <div>
@@ -25,7 +25,7 @@ const Footer = () => {
                 Facebook
               </a>
               <a
-                href="https://zalo.me/0325610016"
+                href="https://zalo.me/0763686330"
                 target="_blank"
                 className="text-gray-400 hover:text-white"
               >
